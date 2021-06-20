@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/unrelentingtech/SwiftCBOR.git", 
-            .branch("master")
+            from: "0.4.3"
         ),
     ],
     targets: [
